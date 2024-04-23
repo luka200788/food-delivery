@@ -192,3 +192,162 @@ li:hover{
     padding-top: 80px;
 
 }
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+    
+}
+.features img{
+    width: 625px;
+}
+
+.features-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.features h4{
+    color: #03A66B;
+}
+
+.features p{
+    color: #676767;
+}
+
+
+.features button{
+    width: 170px;
+    height: 60px;
+    background-color: #F86061;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 0px;
+    transition: 0.5s;
+    cursor: pointer;
+    background: url(<path-to-image>), #F86061 50% / cover no-repeat;
+    box-shadow: 0px 12px 20px 0px rgba(224, 25, 35, 0.20);
+
+    
+}
+
+.features button:hover{
+
+    background-color: white;
+    color: #F86061;
+    transition: 0.5s;
+
+    
+}
+
+.home-delivery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.delivery-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.home-delivery h4{
+    color: #F9BA45;
+}
+
+.home-delivery p{
+    color: #676767;
+}
+
+
+.home-delivery button{
+    width: 170px;
+    height: 60px;
+    border: 2px solid #F86061;
+    color: #F86061;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 12px 20px 0px rgba(224, 25, 35, 0.20);
+
+    
+}
+
+.home-delivery button:hover{
+
+    background-color: #F86061;
+    color: white;
+    transition: 0.5s;
+
+    
+}
+
+.cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEF5F5;
+    height: 100vh;
+}
+
+
+.mobile{
+    width: 280px;
+}
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+}
+.cta button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    height: 80px;
+    border: 2px solid #F86061;
+    color: #F86061;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0px 12px 20px 0px rgba(224, 25, 35, 0.20);
+
+}
+
+.cta-button{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+.cta h4{
+    color: #F54748;
+}
+
+.cta p{
+    color: #676767;
+}
+
+.cta button:hover{
+
+    background-color: #F86061;
+    color: white;
+    transition: 0.5s;
+
+    
+}
